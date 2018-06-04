@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoDBEvaluation", "DynamoDBEvaluation\DynamoDBEvaluation.csproj", "{A4DB3A6A-7959-4517-844B-4D00AE09436C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\..\SynergySVN\Framework\trunk\DAL\DAL.csproj", "{309982CF-5A52-47F1-A0E7-5B6B37F1E417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTIL", "..\..\SynergySVN\Framework\trunk\UTIL\UTIL.csproj", "{374E2B62-F7B7-42CD-BDC8-849829069723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS", "..\..\SynergySVN\Framework\trunk\WS\WS.csproj", "{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		OBIOLD|Any CPU = OBIOLD|Any CPU
+		OBIVersion1|Any CPU = OBIVersion1|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.OBIOLD|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.OBIOLD|Any CPU.Build.0 = Release|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.OBIVersion1|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.OBIVersion1|Any CPU.Build.0 = Release|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DB3A6A-7959-4517-844B-4D00AE09436C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309982CF-5A52-47F1-A0E7-5B6B37F1E417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309982CF-5A52-47F1-A0E7-5B6B37F1E417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309982CF-5A52-47F1-A0E7-5B6B37F1E417}.OBIOLD|Any CPU.ActiveCfg = OBIOLD|Any CPU
+		{309982CF-5A52-47F1-A0E7-5B6B37F1E417}.OBIOLD|Any CPU.Build.0 = OBIOLD|Any CPU
+		{309982CF-5A52-47F1-A0E7-5B6B37F1E417}.OBIVersion1|Any CPU.ActiveCfg = OBIVersion1|Any CPU
+		{309982CF-5A52-47F1-A0E7-5B6B37F1E417}.OBIVersion1|Any CPU.Build.0 = OBIVersion1|Any CPU
+		{309982CF-5A52-47F1-A0E7-5B6B37F1E417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309982CF-5A52-47F1-A0E7-5B6B37F1E417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374E2B62-F7B7-42CD-BDC8-849829069723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374E2B62-F7B7-42CD-BDC8-849829069723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374E2B62-F7B7-42CD-BDC8-849829069723}.OBIOLD|Any CPU.ActiveCfg = OBIOLD|Any CPU
+		{374E2B62-F7B7-42CD-BDC8-849829069723}.OBIOLD|Any CPU.Build.0 = OBIOLD|Any CPU
+		{374E2B62-F7B7-42CD-BDC8-849829069723}.OBIVersion1|Any CPU.ActiveCfg = OBIVersion1|Any CPU
+		{374E2B62-F7B7-42CD-BDC8-849829069723}.OBIVersion1|Any CPU.Build.0 = OBIVersion1|Any CPU
+		{374E2B62-F7B7-42CD-BDC8-849829069723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374E2B62-F7B7-42CD-BDC8-849829069723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}.OBIOLD|Any CPU.ActiveCfg = OBIOLD|Any CPU
+		{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}.OBIOLD|Any CPU.Build.0 = OBIOLD|Any CPU
+		{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}.OBIVersion1|Any CPU.ActiveCfg = OBIVersion1|Any CPU
+		{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}.OBIVersion1|Any CPU.Build.0 = OBIVersion1|Any CPU
+		{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D376DDF-0E06-4127-9D73-63C79CBEC5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
